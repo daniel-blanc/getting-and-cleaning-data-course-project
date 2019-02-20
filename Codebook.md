@@ -1,9 +1,9 @@
-#The source data
+# The source data
 
 The source data used was the Human Activity Recognition Using Smartphones Data Set.
 A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#The R script (run_analysis.R)
+# The R script (run_analysis.R)
 
 The code within the file "run_analysis.R" will perform the following five steps (besides downloading and unziping the soure data, considered the zero-numbered step:
 
@@ -25,7 +25,7 @@ The code within the file "run_analysis.R" will perform the following five steps 
   5.1 Make 2nd tidy data set
   5.2 Write second tidy data set in txt file
 
-#The variables:
+# The variables:
 x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
 x_data, y_data and subject_data merge the previous datasets to further analysis.
 features contains the correct names for the x_data dataset, which are applied to the column names stored in
